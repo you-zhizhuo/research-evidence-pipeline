@@ -102,7 +102,7 @@ Agent 逐阶段推进，每阶段末尾汇报**阶段性成果 + 下一步**；�
 
 | Reference | Purpose |
 |-----------|---------|
-| `references/pipeline-stages.md` | 十阶段细则：每阶段输入/动作/输出/留痕/人工点 |
+| `references/pipeline-stages.md` | 十阶段细则（含**人工登录与逐篇下载操作**：CAS/Shibboleth 协议差异、未订阅处理、知网个人账号批量下载） |
 | `references/cdp-drivers.md` | CNKI/PubMed/WoS 三库驱动差异与验证规则 |
 | `references/recording.md` | 双轨录制手册（screencast/gdigrab）+ 完整坑清单 |
 | `references/evidence-pack.md` | 三层证据体系、manifest 规范、PPT 内嵌规范、文件夹骨架 |
