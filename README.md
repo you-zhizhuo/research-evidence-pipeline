@@ -25,6 +25,26 @@
 
 ## 快速开始
 
+### 安装（他人使用）
+
+```bash
+# 1. 克隆到本机 skill 目录（TRAE/Codex）
+git clone https://github.com/you-zhizhuo/research-evidence-pipeline.git
+#    → 复制到 ~/.trae-cn/skills/research-evidence-pipeline/（Windows: C:\Users\<你>\.trae-cn\skills\）
+#    重启会话后 skill 自动可用
+
+# 2. 安装 Python 依赖
+pip install -r requirements.txt
+
+# 3. 启动带调试端口的 Chrome 并登录你的机构门户
+chrome.exe --remote-debugging-port=9222
+#    （在浏览器内完成机构登录，如 WeMust 扫码 / 校园账号）
+
+# 4. 复制 templates/institution-config-template.md 填入贵校参数（换机构只改这里）
+```
+
+### 使用
+
 1. Chrome 以 `--remote-debugging-port=9222` 启动，并在浏览器内完成机构登录（如 MUST WeMust 扫码）。
 2. 复制 `templates/institution-config-template.md` 填入贵校参数。
 3. 对 Agent 说：
